@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300..700&family=Electrolize&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nerko+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: "Lato", sans-serif;
+}
+@layer components {
+  .btn{
+    @apply bg-white text-secondColor  font-semibold hover:text-white border border-secondColor hover:bg-secondColor  focus:ring-4 focus:outline-none
+    focus:ring-secondColor rounded-3xl text-sm px-8 py-2.5 text-center me-2 mb-2
+  dark:border-secondColor dark:text-secondColor dark:hover:text-white dark:hover:bg-secondColor dark:focus:ring-secondColor
+  }
+}
+
+.slick-slide:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.slick-initialized .slick-slide {
+  outline: none !important;
+}
+body{
+  overflow-x: hidden;
+}
