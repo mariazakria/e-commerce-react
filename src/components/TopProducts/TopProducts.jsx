@@ -5,7 +5,6 @@ import { allProductPorvider } from '../../Context/ProductContextProvider'
 import { cartUserProvuder } from '../../Context/CartProvider'
 import { wishList } from '../../Context/WishListPorvider'
 import Error from "../Error/Error";
-,
 export default function TopProducts() {
     //To product to show in Home Page
     const { addToCart } = useContext(cartUserProvuder)
