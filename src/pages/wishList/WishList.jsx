@@ -9,13 +9,12 @@ import { Link } from "react-router-dom";
 export default function WishList() {
     const { displayWishList, deletWishList } = useContext(wishList)
     const { addToCart } = useContext(cartUserProvuder)
-
     const queryClient = useQueryClient();
     const { isLoading, isError, data } = useQuery({
         queryKey: ["displayWishList"],
         queryFn: displayWishList,
     });
-    // استخدام useMutation لحذف المنتج
+    //useMutation for delet procuts from wishList
     const deleteMutation = useMutation({
         mutationFn: deletWishList,
         onSuccess: () => {
@@ -31,7 +30,6 @@ export default function WishList() {
     if (isError) {
         return <Error />
     }
-
     if (data.data == 0) {
         return < NoItem >
             {"Your wishlist is empty"}
@@ -39,7 +37,6 @@ export default function WishList() {
         </NoItem>
     }
     return (
-
         <>
             <div className=" mx-auto my-4 flex flex-col gap-6">
                 {data.data?.map((product) => (
@@ -56,7 +53,6 @@ export default function WishList() {
                                     alt={product.title}
                                 />
                             </div>
-
                             {/* Product Info */}
                             <div className="flex-1">
                                 <Link to={`/ProdcuDetails/${product.id}/${product.category.name}`} >
@@ -85,11 +81,8 @@ export default function WishList() {
                                     </button>
                                 </div>
                             </div>
-
                             {/* Quantity & Price */}
                             <div className="flex items-center gap-4 mt-4 sm:mt-0">
-
-
                                 {/* Product Price */}
                                 <div className="text-right">
                                     <p className="text-xl font-semibold text-gray-900 dark:text-white">
