@@ -1,7 +1,7 @@
 import React,{ createContext, useContext } from 'react'
 import axios from 'axios';
 import toast from 'react-hot-toast';
-import userContextProvider from "./UserContextProvider"
+import  { userContextProvider } from './UserContextProvider';
 export const wishList = createContext();
 export default function WishListPorvider({ children }) {
     const { token } = useContext(userContextProvider)
