@@ -19,8 +19,20 @@ export default {
 
     extend: {
       colors: {
-        mainColor: '#2563eb',
-        secondColor: '#FF6B6C',
+        primary : {
+          50: '#ffe5e5',
+          100: '#ffcccc',
+          200: '#ff9999',
+          300: '#ff6666',
+          400: '#ff3333',
+          500: '#ff0000',
+          600: '#e60000',
+          700: '#cc0000',
+          800: '#b30000',
+          900: '#990000',
+        },
+        mainColor: '#ff0000',
+        secondColor: '#ff3333',
         textColor: '#1D242D',
       },
       
