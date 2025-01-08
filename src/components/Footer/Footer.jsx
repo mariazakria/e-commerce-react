@@ -44,16 +44,16 @@ export default function Footer() {
                         <h3 className='text-2xl cursor-default font-semibold mb-2 text-textColor'>Follow Us Now:</h3>
                         <ul className='flex gap-3 cursor-pointer'>
                             <li className=' size-8 rounded-full border hover:bg-secondColor duration-200 transition-colors hover:text-white  border-black/50 flex justify-center items-center'>
-                                <Link to={"https://www.facebook.com/profile.php?id=100005360088833"} target='_blank' className=" self-center  fa-brands fa-facebook-f"></Link>
+                                <Link to={"https://www.facebook.com/maria.zakria.130?mibextid=JRoKGi"} target='_blank' className=" self-center  fa-brands fa-facebook-f"></Link>
                             </li>
                             <li className=' size-8 rounded-full border hover:bg-secondColor duration-200 transition-colors hover:text-white  border-black/50 flex justify-center items-center'>
-                                <Link to={"https://www.linkedin.com/in/mahmoud-saeed-8890092b5/"} target='_blank' className=" self-center  fa-brands fa-linkedin"></Link>
+                                <Link to={"https://www.linkedin.com/in/maria-zakaria-585663285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/"} target='_blank' className=" self-center  fa-brands fa-linkedin"></Link>
                             </li>
                             <li className=' size-8 rounded-full border hover:bg-secondColor duration-200 transition-colors hover:text-white  border-black/50 flex justify-center items-center'>
-                                <Link to={"https://www.instagram.com/mahmoud_sa3eed_/"} target='_blank' className=" self-center  fa-brands fa-instagram"></Link>
+                                <Link to={"https://www.instagram.com/mariazakria13?igsh=c2M2ejk2ZzdseHl5"} target='_blank' className=" self-center  fa-brands fa-instagram"></Link>
                             </li>
                             <li className=' size-8 rounded-full border hover:bg-secondColor duration-200 transition-colors hover:text-white  border-black/50 flex justify-center items-center'>
-                                <Link to={"mailto:mahmoudsaeed0112074@gmail.com"} target='_blank' className=" self-center  fa-brands fa-google"></Link>
+                                <Link to={"mailto:mariazakria130@gmail.com"} target='_blank' className=" self-center  fa-brands fa-google"></Link>
                             </li>
                         </ul>
                     </div>
