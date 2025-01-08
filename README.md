@@ -57,13 +57,6 @@ src/
 4. **Wishlist**: Users can save and manage favorite items.
 5. **Orders**: Displays a history of all user orders.
 
-## Screenshots
-
-![Screenshot 2024-12-14 215810](https://github.com/user-attachments/assets/68280885-57f6-4705-9244-5f16f4847003)
-
-![Screenshot 2024-12-14 215748](https://github.com/user-attachments/assets/62d70b60-16e3-47f6-9b4a-9eb9ea9b52dc)
-![Screenshot 2024-12-14 215702](https://github.com/user-attachments/assets/fd5784db-762d-455f-ac71-20fe9f90286a)
-
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, follow these steps:
